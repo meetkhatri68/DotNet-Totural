@@ -1,0 +1,15 @@
+how to create (ASP.Net Core Web API) Project Detials....
+
+step 1 = first you have to create WEB API project
+step 2 = install Entity Framework , Entity Framework sqlserver, Entity Framework tools, Entity Framework degins
+step 3 = Create Models
+step 4 = create appdbcontext
+step 5 = create connections string with database in (appsettings.json)-----Code Is Here "ConnectionStrings": {
+  "AppDb": "Server=.;Database=SampleEF;Integrated Security=true;TrustServerCertificate=true;"
+step 6 = create this code in program.cs file----------builder.Services.AddDbContext<AppDbContext>(options =>
+ options.UseSqlServer(builder.Configuration.GetConnectionString("AppDb")) 
+step 7 = Add Migration and update databse
+step 8 = create controller
+step 9 = after you have to write This code in your controller [Route("api/[controller]")]
+[ApiController]
+step 10 = 
