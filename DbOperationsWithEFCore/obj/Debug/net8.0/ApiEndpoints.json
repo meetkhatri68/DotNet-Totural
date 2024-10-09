@@ -1,0 +1,185 @@
+[
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.BooksController",
+    "Method": "AddNewBook",
+    "RelativePath": "api/Books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DbOperationsWithEFCoreApp.Data.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.BooksController",
+    "Method": "GetBookData",
+    "RelativePath": "api/Books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.BooksController",
+    "Method": "UpdateBookWithSingleQuery",
+    "RelativePath": "api/Books",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DbOperationsWithEFCoreApp.Data.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.BooksController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/Books/{bookId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DbOperationsWithEFCoreApp.Data.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.BooksController",
+    "Method": "DelectBookById",
+    "RelativePath": "api/Books/{bookId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.BooksController",
+    "Method": "AddBooks",
+    "RelativePath": "api/Books/bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Collections.Generic.List\u00601[[DbOperationsWithEFCoreApp.Data.Book, DbOperationsWithEFCoreApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.BooksController",
+    "Method": "UpdateBookInBulk",
+    "RelativePath": "api/Books/Bulk",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.BooksController",
+    "Method": "DeletBookWithBulk",
+    "RelativePath": "api/Books/Bulk",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.CurrencyController",
+    "Method": "GetAllCurrencies",
+    "RelativePath": "api/currencies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.CurrencyController",
+    "Method": "GetCurrencyByIdAsync",
+    "RelativePath": "api/currencies/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.CurrencyController",
+    "Method": "GetCurrencyByIdAsync",
+    "RelativePath": "api/currencies/all",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.LanguageController",
+    "Method": "GetAllLanguages",
+    "RelativePath": "api/languages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbOperationsWithEFCoreApp.Controllers.LanguageController",
+    "Method": "GetLanguageByIdAsync",
+    "RelativePath": "api/languages/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
